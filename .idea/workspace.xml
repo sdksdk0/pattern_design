@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227cbf1c-dad6-4bc7-9314-e9101c259555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/ThreadLocal/ThreadLocalSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/EnumSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ExectorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/LazyInnerClassSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/SeriableSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ThreadLocalSingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/ContainerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable/SeriableSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +24,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ThreadLocalSingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="382">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ExectorThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,13 +53,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>readObject</find>
+      <find>hasReadResolveMethod(</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/factory/IAirCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/factory/GeLi.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/factory/MiDea.java" />
@@ -86,18 +104,26 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/hungry/HungryStaticSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazySimpleSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyInnerClassSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/ContainerSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/LazyInnerClassSingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable/seriable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/SeriableSingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable/SeriableSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/EnumSingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/ContainerSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/ThreadLocal/ThreadLocalSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ExectorThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ThreadLocalSingletonTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="232" />
-    <option name="y" value="82" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="672" />
+    <option name="y" value="94" />
     <option name="width" value="1241" />
-    <option name="height" value="953" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -107,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,30 +176,55 @@
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pattern_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern_design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern_design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern_design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552294818691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552353895155" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tf.pattern.singleton" />
       <recent name="cn.tf.pattern.prototype.deepClone" />
       <recent name="cn.tf.pattern.factory.abstracFactory" />
       <recent name="cn.tf.pattern.factory.factoryMethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelWorkspace\pattern_design\src\test\java\cn\tf\pattern\singleton" />
       <recent name="D:\IntelWorkspace\pattern_design\src\main\java\cn\tf\pattern\prototype\shallowClone" />
       <recent name="D:\IntelWorkspace\patern_design\src\main\java\cn\tf\pattern\factory\abstracFactory" />
     </key>
@@ -191,20 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeepCloneTest">
-    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.factory.abstracFactory.AbstractFactoryTest" />
-      <module name="patern_design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tf.pattern.factory.abstracFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLocalSingletonTest">
     <configuration name="DeepCloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.prototype.deepClone.DeepCloneTest" />
       <module name="pattern_design" />
@@ -218,25 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.factory.factoryMethod.FactoryMethodTest" />
-      <module name="patern_design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tf.pattern.factory.factoryMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.prototype.shallowClone.PrototypeTest" />
+    <configuration name="EnumSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.singleton.EnumSingletonTest" />
       <module name="pattern_design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tf.pattern.prototype.shallowClone.*" />
+          <option name="PATTERN" value="cn.tf.pattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +268,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.factory.simple.SimpleFactoryTest" />
-      <module name="patern_design" />
+    <configuration name="LazyInnerClassSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.singleton.LazyInnerClassSingletonTest" />
+      <module name="pattern_design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tf.pattern.factory.simple.*" />
+          <option name="PATTERN" value="cn.tf.pattern.singleton.seriable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeriableSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.singleton.SeriableSingletonTest" />
+      <module name="pattern_design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tf.pattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tf.pattern.singleton.ThreadLocalSingletonTest" />
+      <module name="pattern_design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tf.pattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalSingletonTest" />
+        <item itemvalue="Application.EnumSingletonTest" />
+        <item itemvalue="Application.SeriableSingletonTest" />
+        <item itemvalue="Application.LazyInnerClassSingletonTest" />
         <item itemvalue="Application.DeepCloneTest" />
-        <item itemvalue="Application.PrototypeTest" />
-        <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.FactoryMethodTest" />
-        <item itemvalue="Application.SimpleFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -282,16 +332,18 @@
       <workItem from="1552284000799" duration="1339000" />
       <workItem from="1552285476377" duration="29000" />
       <workItem from="1552285582402" duration="7392000" />
+      <workItem from="1552350630262" duration="3012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12552000" />
+    <option name="totallyTimeSpent" value="15564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="82" width="1241" height="953" extended-state="0" />
+    <frame x="672" y="94" width="1241" height="957" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27373824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +352,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.047919292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37390214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,7 +362,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32706767" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,17 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/prototype/deepClone/AOrbit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/prototype/deepClone/AOrbit.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/prototype/shallowClone/ProbeData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -619,47 +661,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/LazyInnerClassSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/lazy/LazyInnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="425">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="434" column="19" lean-forward="true" selection-start-line="434" selection-start-column="19" selection-end-line="434" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/ObjectStreamClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="188" column="41" lean-forward="true" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable/SeriableSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1486" column="29" lean-forward="true" selection-start-line="1486" selection-start-column="29" selection-end-line="1486" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/SeriableSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/EnumSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="168">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/register/ContainerSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="400">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#265#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/seriable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tf/pattern/singleton/ThreadLocal/ThreadLocalSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#242#458#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ExectorThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/tf/pattern/singleton/ThreadLocalSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -715,7 +835,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>patern_design</last-edited>
+          <last-edited>pattern_design</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

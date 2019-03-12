@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 容器式单例
+ * 容器式单例，容器式写法适用于创建实例非常多的情况，便于管理。但是，是非线程安全的。
  */
 public class ContainerSingleton {
 
