@@ -20,6 +20,8 @@ public class LazyInnerClassSingletonTest {
             Object o1 = c.newInstance();
             Object o2 = c.newInstance();
              //对比两个对象是否相同
+            System.out.println(o1);
+            System.out.println(o2);
             System.out.println(o1 ==o2);
 
         }catch (Exception e){

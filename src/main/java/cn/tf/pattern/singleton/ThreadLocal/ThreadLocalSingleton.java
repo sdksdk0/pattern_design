@@ -20,10 +20,4 @@ public class ThreadLocalSingleton {
         return threadLocal.get();
     }
 
-
-
-
-
-
-
 }
